@@ -1,14 +1,9 @@
 import { IconContext } from "react-icons";
-import {
-  FaEquals,
-  AiOutlinePercentage,
-  FaDivide,
-  FaTimes,
-  AiOutlineMinus,
-  FaPlus,
-  FaEquals,
-  FiDelete,
-} from "react-icons";
+
+import { TbSquareRoot } from "react-icons/tb";
+import { AiOutlinePercentage, AiOutlineMinus } from "react-icons/ai";
+import { FaDivide, FaTimes, FaPlus, FaEquals } from "react-icons/fa";
+import { FiDelete } from "react-icons/fi";
 
 const CustomIcon = ({ icon, color, size }) => {
   const iconMap = {
