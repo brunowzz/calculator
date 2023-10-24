@@ -1,3 +1,9 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @mixin buttonTypography {
   font-size: 2rem;
   font-weight: 400;

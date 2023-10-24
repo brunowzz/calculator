@@ -1,0 +1,72 @@
+@use "../../styles/mixin.scss" as mixin;
+@use "../../styles/variables.scss" as variables;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 1rem 0;
+  background: variables.$dark-background;
+}
+
+.containerNumbers {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem;
+}
+
+.mathematicalOperation {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: variables.$dark-text;
+  opacity: 0.4;
+  text-align: right;
+}
+
+.accountResult {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 4rem;
+  font-weight: 300;
+  color: variables.$dark-text;
+  text-align: right;
+
+  &::placeholder {
+    font-size: 4rem;
+    font-weight: 300;
+    color: variables.$dark-text;
+    text-align: right;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+
+.button {
+  @include mixin.center;
+  @include mixin.buttonSize;
+  border: none;
+  @include mixin.buttonTypography;
+  color: variables.$dark-text;
+  cursor: pointer;
+
+  &.lowEmphasis {
+    background: variables.$dark-button-low-emphasis;
+  }
+
+  &.mediumEmphasis {
+    background: variables.$dark-button-medium-emphasis;
+  }
+
+  &.highEmphasis {
+    background: variables.$dark-button-high-emphasis;
+  }
+}
