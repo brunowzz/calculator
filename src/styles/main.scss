@@ -8,6 +8,10 @@
   font-family: variables.$font-stack;
 }
 
+body {
+  background: variables.$dark-background;
+}
+
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
