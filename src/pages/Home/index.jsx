@@ -7,6 +7,7 @@ import styles from "./style.module.scss";
 const Home = () => {
   const [display, setDisplay] = useState("");
   const [result, setResult] = useState(0);
+
   console.log(display);
 
   const handleClick = (value) => {
@@ -17,11 +18,15 @@ const Home = () => {
         } catch (error) {
           setResult(error);
         }
+
+        setDisplay("");
+
         break;
 
       case "C":
         setDisplay("");
         setResult(0);
+        setIsResultDisplayed(false);
         break;
 
       case "√":
