@@ -77,28 +77,28 @@ const Home = () => {
 
       <section className={styles.container}>
         <button
-          className={`${styles.button} ${styles.mediumEmphasis}`}
+          className={styles.mediumEmphasis}
           onClick={() => handleClick("C")}
         >
           C
         </button>
 
         <button
-          className={`${styles.button} ${styles.mediumEmphasis}`}
+          className={styles.mediumEmphasis}
           onClick={() => handleClick("√")}
         >
           <CustomIcon icon="squareRoot" size="2rem" color="#fff" />
         </button>
 
         <button
-          className={`${styles.button} ${styles.mediumEmphasis}`}
+          className={styles.mediumEmphasis}
           onClick={() => handleClick("%")}
         >
           <CustomIcon icon="percentage" size="2rem" color="#fff" />
         </button>
 
         <button
-          className={`${styles.button} ${styles.highEmphasis}`}
+          className={styles.highEmphasis}
           value="/"
           onClick={() => handleClick("/")}
         >
@@ -106,7 +106,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="7"
           onClick={() => handleClick("7")}
         >
@@ -114,7 +114,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="8"
           onClick={() => handleClick("8")}
         >
@@ -122,7 +122,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="9"
           onClick={() => handleClick("9")}
         >
@@ -130,7 +130,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.highEmphasis}`}
+          className={styles.highEmphasis}
           value="x"
           onClick={() => handleClick("*")}
         >
@@ -138,7 +138,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="4"
           onClick={() => handleClick("4")}
         >
@@ -146,7 +146,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="5"
           onClick={() => handleClick("5")}
         >
@@ -154,7 +154,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="6"
           onClick={() => handleClick("6")}
         >
@@ -162,7 +162,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.highEmphasis}`}
+          className={styles.highEmphasis}
           value="-"
           onClick={() => handleClick("-")}
         >
@@ -170,7 +170,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="1"
           onClick={() => handleClick("1")}
         >
@@ -178,7 +178,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="2"
           onClick={() => handleClick("2")}
         >
@@ -186,7 +186,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="3"
           onClick={() => handleClick("3")}
         >
@@ -194,7 +194,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.highEmphasis}`}
+          className={styles.highEmphasis}
           value="+"
           onClick={() => handleClick("+")}
         >
@@ -202,7 +202,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="."
           onClick={() => handleClick(".")}
         >
@@ -210,7 +210,7 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           value="0"
           onClick={() => handleClick("0")}
         >
@@ -218,14 +218,14 @@ const Home = () => {
         </button>
 
         <button
-          className={`${styles.button} ${styles.lowEmphasis}`}
+          className={styles.buttonLowEmphasis}
           onClick={() => handleClick("del")}
         >
           <CustomIcon icon="delete" size="2rem" color="#fff" />
         </button>
 
         <button
-          className={`${styles.button} ${styles.highEmphasis}`}
+          className={styles.highEmphasis}
           onClick={() => handleClick("=")}
         >
           <CustomIcon icon="equal" size="2rem" color="#fff" />

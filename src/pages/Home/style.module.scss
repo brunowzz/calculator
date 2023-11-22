@@ -49,23 +49,17 @@
   gap: 0.3rem;
 }
 
-.button {
-  @include mixin.center;
-  @include mixin.buttonSize;
-  border: none;
-  @include mixin.buttonTypography;
-  color: variables.$dark-text;
-  cursor: pointer;
+.buttonLowEmphasis {
+  @include mixin.buttonConfig;
+  background: variables.$dark-button-low-emphasis;
+}
 
-  &.lowEmphasis {
-    background: variables.$dark-button-low-emphasis;
-  }
+.mediumEmphasis {
+  @include mixin.buttonConfig;
+  background: variables.$dark-button-medium-emphasis;
+}
 
-  &.mediumEmphasis {
-    background: variables.$dark-button-medium-emphasis;
-  }
-
-  &.highEmphasis {
-    background: variables.$dark-button-high-emphasis;
-  }
+.highEmphasis {
+  @include mixin.buttonConfig;
+  background: variables.$dark-button-high-emphasis;
 }
