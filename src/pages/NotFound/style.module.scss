@@ -1,2 +1,24 @@
 @use "../../styles/mixin.scss" as mixin;
 @use "../../styles/variables.scss" as variables;
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  a {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: variables.$dark-text;
+    text-decoration: none;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: variables.$dark-text;
+}

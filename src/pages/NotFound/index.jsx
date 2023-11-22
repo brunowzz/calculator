@@ -4,8 +4,8 @@ import styles from "./style.module.scss";
 
 const NotFound = () => {
   return (
-    <main>
-      <h1>Página não encontrada...</h1>
+    <main className={styles.main}>
+      <h1 className={styles.title}>Página não encontrada...</h1>
       <Link to="/"> voltar para a calculadora </Link>
     </main>
   );

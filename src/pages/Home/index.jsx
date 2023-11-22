@@ -8,8 +8,6 @@ const Home = () => {
   const [display, setDisplay] = useState("");
   const [result, setResult] = useState(0);
 
-  console.log(display);
-
   const handleClick = (value) => {
     switch (value) {
       case "=":
